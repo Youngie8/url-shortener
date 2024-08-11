@@ -6,7 +6,7 @@ export async function login(email, password) {
         password
     })
 
-    if(error) throw new Error(error.message, error.code)
+    if(error) throw new Error(error.message)
     
     return data
 }
