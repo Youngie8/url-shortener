@@ -8,7 +8,7 @@ const Auth = () => {
 
   const [searchParams] = useSearchParams();
   return (
-    <div className='mt-36 flex flex-col items-center gap-10'>
+    <div className='mt-16 flex flex-col items-center gap-10'>
       <h1 className='text-2xl font-bold'>{searchParams.get('createNew')? "Hold up, Let's Log you in first...": 'Login / Sign-up'}</h1>
       <Tabs defaultValue="login" className="w-[400px]">
         <TabsList className='grid w-full grid-cols-2'>
