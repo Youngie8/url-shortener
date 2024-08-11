@@ -11,7 +11,7 @@ const Header = () => {
     const user = false;
   return (
     <nav className="py-4 flex justify-between item-center">
-        <Link to='/'><h1 className="">Scissor.</h1></Link>
+        <Link to='/'><h1 className="sm:text-3xl font-extrabold sm:text-xl font-bold">SCISSOR</h1></Link>
 
         <div>
             {!user?

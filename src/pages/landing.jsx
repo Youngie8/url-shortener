@@ -25,7 +25,7 @@ const LandingPage = () => {
         </h2>
         <form 
         onSubmit={handleShorten}
-        className='sm: h-14 flex flex-col sm:flex-row w-full md: w-1/2 gap 2'>
+        className='sm: h-14 flex flex-col sm:flex-row w-full md:w-1/2 gap 2'>
           <Input type='url' required
           placeholder="Enter that long URL"
           className="h-full flex-1 py-4 px-4"
