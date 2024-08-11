@@ -33,7 +33,7 @@ const Login = () => {
     const {data, loading, error, fn: fnLogin} = useFetch(login, formData)
 
     useEffect(() => {
-        console.log(error)
+        console.log(data)
         // if(error === null && data) {
 
         // }
