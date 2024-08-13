@@ -34,7 +34,11 @@ const Header = () => {
                 <DropdownMenuContent>
                     <DropdownMenuLabel>{ user?.user_metadata?.name }</DropdownMenuLabel>
                     <DropdownMenuSeparator />
-                    <DropdownMenuItem><Link2Icon className="mr-2 h-4 w-4"/><span>My links</span></DropdownMenuItem>
+                    <DropdownMenuItem>
+                        <Link to={'/dashboard'} className="flex">
+                            <Link2Icon className="mr-2 h-4 w-4"/><span>My links</span>
+                        </Link>
+                    </DropdownMenuItem>
                     <DropdownMenuItem className='text-red-400'><LogOut className="mr-2 h-4 w-4"/><span onClick={() => {
                         fnLogOut().then(() => {
                             fetchUser();
