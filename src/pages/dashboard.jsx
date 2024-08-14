@@ -15,6 +15,7 @@ import useFetch from '@/hooks/use-fetch'
 import { getUrls } from '@/db/apiUrls'
 import { UrlState } from '@/context'
 import { getClicksForUrls } from '@/db/apiClicks'
+import LinkCard from '@/components/link-card'
 
 
 const Dashboard = () => {
@@ -76,7 +77,7 @@ const Dashboard = () => {
       </div>
       {error && <Error message={error?.message} />}
       {(filteredUrls || []).map((url, id) => {
-        return url.title
+        return <LinkCard key={id} url={url} fetchUrls={fnUrls}/>
       })}
     </div>
   )
