@@ -61,9 +61,9 @@ const Link = () => {
       <div className="flex flex-col gap-8 sm:flex-row justify-between">
         <div className=" flex flex-col items-start gap-8 rounded-lg sm:w-2/5">
           <span className='text-5xl font-extrabold hover:underline cursor-pointer'>{ url?.title }</span>
-          <a href={`https://oluwole-scissor/netlify.app/${ link }`} target='_blank'
+          <a href={`https://oluwole-scissor.netlify.app/${ link }`} target='_blank'
           className='text-2xl sm:text-3xl text-blue-600 font-bold hoer:underline '>
-           https://oluwole-scissor/netlify.app/{ link }
+           https://oluwole-scissor.netlify.app/{ link }
           </a>
           <a href={url?.original_url} target='_blank'
           className='flex items-center gap-1 hover:underline cursor-pointer'>
