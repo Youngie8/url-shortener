@@ -5,6 +5,7 @@ import useFetch from "@/hooks/use-fetch"
 import { deleteUrl } from "@/db/apiUrls"
 import { BeatLoader } from "react-spinners"
 
+
 const LinkCard = ({url, fetchUrls}) => {
 
     const downloadImage = () => {
@@ -25,7 +26,7 @@ const LinkCard = ({url, fetchUrls}) => {
 
   return (
     <div className="flex flex-col md:flex-row gap-5 border p-2 rounded-lg">
-        <img src={url.qr} alt="QR code" className="h-32 object-contain ring ring-#36d7b7 self-start"/>
+        <img src={url.qr} alt="QR code" className="h-32 object-contain ring ring-blue-800 p-1 self-start"/>
         <Link to={`/link/${url?.id}`} className="flex flex-col flex-1">
             <span className="text-2xl font-extrabold hover:underline cursor-pointer"> {url?.title}</span>
             <span className=" text-xl text-blue-400 font-bold hover:underline cursor-pointer">https://scissor-oluwole.netlify.app/{url?.custom_url? url?.custom_url : url.short_url}</span>
