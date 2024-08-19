@@ -63,10 +63,10 @@ const Link = () => {
           <span className='text-5xl font-extrabold hover:underline cursor-pointer'>{ url?.title }</span>
           <a href={`https://oluwole-scissor.netlify.app/${ link }`} target='_blank'
           className='text-2xl sm:text-3xl text-blue-600 font-bold hoer:underline '>
-           https://oluwole-scissor.netlify.app/{ link }
+           https://oluwole-scissor.netlify.app/{ link } 
           </a>
           <a href={url?.original_url} target='_blank'
-          className='flex items-center gap-1 hover:underline cursor-pointer'>
+          className='flex items-center gap-1 hover:underline p-0 cursor-pointer'>
             <LinkIcon className='p-1' />
            { url?.original_url }
           </a>
