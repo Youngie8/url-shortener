@@ -22,7 +22,7 @@ const Auth = () => {
   return (
     <div className='mt-16 flex flex-col items-center gap-10'>
       <h1 className='text-2xl font-bold'>{longLink ? "Hold up, Let's Log you in first...": 'Login / Sign-up'}</h1>
-      <Tabs defaultValue="login" className="w-[400px]">
+      <Tabs defaultValue="login" className="w-4/5 sm:w-3/5 md:w-2/5">
         <TabsList className='grid w-full grid-cols-2'>
           <TabsTrigger value="login">Login</TabsTrigger>
           <TabsTrigger value="signup">Signup</TabsTrigger>
