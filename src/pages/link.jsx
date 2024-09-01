@@ -70,7 +70,7 @@ const Link = () => {
             <LinkIcon className='p-1' />
            { url?.original_url }
           </a>
-          <span className='flex items-end font-extralight text-sm'>{ new Date(url?.created_at).toLocaleString()}</span>
+          <span className='flex items-end font-extralight text-sm'>Created at { new Date(url?.created_at).toLocaleString()}</span>
           <div className="flex gap-2">
             <Button variant="ghost" onClick={() => navigator.clipboard.writeText(`https://scissor-oluwole.netlify.app/${url?.short_url}`)}>
                 <Copy/>
