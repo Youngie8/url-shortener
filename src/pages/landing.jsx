@@ -20,7 +20,7 @@ const LandingPage = () => {
   return (
     <div className='container'>
         <div className="my-16">
-          <h1 className='header text-6xl md:text-9xl font-extrabold'>Scissor <span className='md-none'>--/...</span></h1>
+          <h1 className='header text-6xl md:text-9xl font-extrabold'>Scissor <span className='display: none'>--/...</span></h1>
           <h4 className='sub-header text-3xl font-extralight sm:text-4xl'> Chop long links into tiny, shareable bites!</h4>
           <p className='text-2xl my-3'>Scissor is your link-shortening sidekick. Paste any long URL, and we'll generate a short, clean link for easy sharing across all your platforms</p>
         </div>
@@ -61,5 +61,6 @@ const LandingPage = () => {
     </div>
   )
 }
+//Ray.uj_BANb6@e2
 
 export default LandingPage

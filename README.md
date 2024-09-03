@@ -1,9 +1,32 @@
-# React + Vite
+# Scissor - A URL shorterner website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Scissor Description
+1. Application usage
+* click the link `https://oluwole-scissor.netlify.app/`, and paste the long link into the input. generate a short link after you are logged in. 
+* The dashboard option allows you to see all your links and perfom multiple options like delete a link save the QR code. 
 
-Currently, two official plugins are available:
+2. Technologies used 
+* React.js: For building the user interface.
+* JavaScript: For core application logic.
+* ShacnUI: For component development.
+* Jest: For unit testing.
+* Tailwind CSS and Google Fonts: For styling.
+* Netlify: For hosting.
+* Supabase: For backend services, including authentication, user management, and data storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-password for supabase scissor project - Ray.uj_BANb6@e2
+3. Features - 
+* User authentication and registration.
+* User dashboard for managing shortened links.
+* URL shortening functionality.
+* Link redirection.
+* Detailed link information.
+
+# How to Install
+
+1. Clone ths repository ``` git clone https://github.com/Youngie8/url-shortener.git ```
+
+2. Install Dependencies - 
+    * ```npm install ```
+    * ``` npm install react-router-dom```
+
+
