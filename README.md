@@ -1,4 +1,5 @@
-# Scissor - A URL shorterner website.
+# Scissor 
+ A URL shorterner website.
 
 # Scissor Description
 1. Application usage
@@ -28,5 +29,10 @@
 2. Install Dependencies - 
     * ```npm install ```
     * ``` npm install react-router-dom```
+    * to install the components from shadCN UI, 
+    ``` npx shadcn@latest add <component> ```
 
+3. To run the local server, ``` npm run dev ```
+
+4. To view, click on ``` http://localhost:5173/ ```
 
